@@ -59,7 +59,7 @@ module.exports = {
         "guard-for-in": "error",
         "handle-callback-err": "off",
         "id-blacklist": "error",
-        "id-length": "error",
+        "id-length": "off",
         "id-match": "error",
         "implicit-arrow-linebreak": "error",
         "indent": "off",
@@ -88,7 +88,7 @@ module.exports = {
         "new-cap": "error",
         "new-parens": "error",
         "newline-after-var": [
-            "error",
+            "off",
             "never"
         ],
         "newline-before-return": "error",
@@ -130,7 +130,7 @@ module.exports = {
         "no-multi-assign": "error",
         "no-multi-spaces": "error",
         "no-multi-str": "error",
-        "no-multiple-empty-lines": "error",
+        "no-multiple-empty-lines": "off",
         "no-native-reassign": "error",
         "no-negated-condition": "error",
         "no-negated-in-lhs": "error",
@@ -166,7 +166,7 @@ module.exports = {
         "no-template-curly-in-string": "error",
         "no-ternary": "error",
         "no-throw-literal": "error",
-        "no-trailing-spaces": "error",
+        "no-trailing-spaces": "off",
         "no-undef": "off",
         "no-undef-init": "error",
         "no-undefined": "error",
@@ -205,7 +205,7 @@ module.exports = {
         "prefer-reflect": "error",
         "prefer-rest-params": "error",
         "prefer-spread": "error",
-        "prefer-template": "error",
+        "prefer-template": "off",
         "quote-props": "error",
         "quotes": [
             "error",
@@ -225,7 +225,7 @@ module.exports = {
         "sort-keys": "error",
         "sort-vars": "off",
         "space-before-blocks": "error",
-        "space-before-function-paren": "error",
+        "space-before-function-paren": "off",
         "space-in-parens": [
             "error",
             "never"
