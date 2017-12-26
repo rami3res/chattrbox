@@ -51,7 +51,7 @@ module.exports = {
             "error",
             "never"
         ],
-        "func-style": "error",
+        "func-style": "off",
         "function-paren-newline": "error",
         "generator-star-spacing": "error",
         "getter-return": "error",
@@ -213,7 +213,7 @@ module.exports = {
         ],
         "radix": "error",
         "require-await": "error",
-        "require-jsdoc": "error",
+        "require-jsdoc": "off",
         "rest-spread-spacing": "error",
         "semi": "error",
         "semi-spacing": "error",
